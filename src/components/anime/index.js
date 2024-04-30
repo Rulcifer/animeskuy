@@ -31,7 +31,8 @@ const Anime = () => {
         </div>
     </div>
 
-            <div className="flex-1 flex flex-col">
+            {/* <div className="flex-1 flex flex-col"> */}
+            <div className="grid grid-cols">
                 <div className="m-5 mb-0.5 h-[96px] w-[380px] rounded bg-stone-800">
                     <div className="flex items-center">
                     <img src={anime1} alt="" className="h-[96px] w-[68px] rounded" />
